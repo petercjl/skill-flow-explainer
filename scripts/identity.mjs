@@ -15,6 +15,7 @@ const manifest={name:'skill-flow-explainer',package:pkg.name,version:pkg.version
 commands['update install'].options['--package-file']={type:'string',description:'Optional exact-version local npm tarball for offline installation'};
 c('update recover','package-and-skill-update',{...target,'--yes':b});
 caps.discoveryContract.entryPoints[0].result='manifest';
+caps.discoveryContract.skillCollection.enumeration.itemsField='sources';
 caps.discoveryContract.skillCollection.namedSource=caps.discoveryContract.skillCollection.namedSource.argv;
 caps.maintenanceContract.source=caps.maintenanceContract.source.fields;
 caps.maintenanceContract.status=caps.maintenanceContract.status.fields;

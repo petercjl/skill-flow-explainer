@@ -10,7 +10,7 @@ export async function run(argv){
  if(opts['--help']||cmd==='help')return {ok:true,...caps(),options:spec.options};for(const [k,v]of Object.entries(spec.options))if(v.required&&!opts[k])fail('REQUIRED_ARGUMENT',{flag:k});
  if(opts['--name']&&opts['--name']!==identity().name)fail('SKILL_NOT_FOUND');
  if(cmd==='version')return {ok:true,...identity()};if(cmd==='capabilities')return {ok:true,...caps()};if(cmd==='doctor')return doctor();
- if(cmd==='skill source'){const r=sourceReceipt();return {...caps(),...r,complete:true,skills:[r]};}
+ if(cmd==='skill source'){const r=sourceReceipt();return {...caps(),...r,complete:true,sources:[r]};}
  if(cmd==='skill status')return status(opts['--target'],opts['--agent']);
  if(['skill install','skill update'].includes(cmd))return install(opts['--target'],opts['--agent']);
  if(cmd==='update check')return checkUpdate();
