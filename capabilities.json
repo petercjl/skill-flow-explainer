@@ -336,7 +336,7 @@
           "source",
           "--json"
         ],
-        "itemsField": "skills",
+        "itemsField": "sources",
         "completeField": "complete"
       },
       "namedSource": [
