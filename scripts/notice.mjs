@@ -1,0 +1,1 @@
+console.error('Skill Flow Explainer: npm installation provides the bootstrap CLI. Read INSTALL.md; resolve the current Agent’s exact Skill directory and run the managed skill install handoff. Host discovery remains the Agent’s responsibility.');

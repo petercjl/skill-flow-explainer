@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "version": "0.1.0",
+  "files": {
+    "adapters/generic.json": "ff200b5fe63d121e39580554d7248ce37fdda43f7fa48a8a7792e3458f1dd18b",
+    "agents/openai.yaml": "7c0af9ece752860b117735f25a277075bec3e46f516a3e38a9076792ac4d8426",
+    "assets/report.html": "7e7b17c3b83dd8c05e9ea1a0bc15f6f4ed427649c1aebd7313862b6d9db7a72f",
+    "capabilities.json": "1de94502faf8a3ab8d925e9ca16f026ae91e6b61438e84ef1b66fa1303227177",
+    "management.json": "d83f7b2d9e45b94ee87ce445e168ce6b71d664c7e1a80e2e501710eada9b6dd7",
+    "manifest.json": "2d36b439c6bc89cc2b2679d442074c14780cf201ea6f3d3cc96527916cb6ea4a",
+    "references/index.md": "4d4af3ef82f0d843aaa4185e702b5bfbc1a631124faed98d6e0770bcecb373b6",
+    "references/log.md": "83e6b540c8df1433f87a7833f6e93efe5246539fe32b12fea88b0e97e9e4ca7f",
+    "references/queries/explain.md": "490a3f16209acdd572bb17fb4d2040bf0e56bf67885f0de0aeaba07c3ca8ae42",
+    "references/report-contract.md": "781072221acc259f2aa49cacad74fd40383a59c2efdda4e4ee85ac800771a15c",
+    "references/SCHEMA.md": "2069807a3f45b405e075b6460a9a35bf34fb44eaa6b7d388d3eb891f59d10ee4",
+    "references/source-manifest.md": "5d206e6ddd86b0a90a77546dea4392fa63c46ed098c8a240bbb0eb55dd7423f9",
+    "references/topics/method.md": "0a89a0388bdb224047979326843a8d086365b4d60ca77ecbbd6f63bc7d569e32",
+    "scripts/cli.mjs": "758002dfece7602aab3e61ac844beb9e23e2c452bb2dd207abbda4e0743f1a61",
+    "scripts/lifecycle.mjs": "5aa3354666fc866f43db72b6ad461beff9a0b4b9186536f912e1993718a72b6f",
+    "scripts/report.mjs": "c0b8e74164830caa8e5108f263b6f8bacad800b3ebfc93032ddda46d60ad1af8",
+    "SKILL.md": "50e68a3d1915ffc6731eade048251173b8fe48ba85ede006ea795345ed5b0d1a"
+  }
+}
