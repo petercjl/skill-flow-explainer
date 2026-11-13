@@ -1,14 +1,36 @@
 {
-  "name":"@petercjl/skill-flow-explainer",
-  "version":"0.1.0",
-  "type":"module",
-  "description":"Evidence-backed Skill business-flow and strategy reports",
-  "license":"MIT",
-  "bin":{"skill-flow-explainer":"skills/skill-flow-explainer/scripts/cli.mjs"},
-  "files":["skills/","capabilities.json","INSTALL.md","UPDATE.md","scripts/notice.mjs"],
-  "engines":{"node":">=22"},
-  "publishConfig":{"access":"public"},
-  "scripts":{"test":"node --test tests/*.test.mjs","version":"node scripts/identity.mjs --write","prepack":"node scripts/identity.mjs","postinstall":"node scripts/notice.mjs"},
-  "agentPackage":{"kind":"application-skill"},
-  "repository":{"type":"git","url":"git+https://github.com/petercjl/skill-flow-explainer.git"}
+  "name": "@petercjl/skill-flow-explainer",
+  "version": "0.1.1",
+  "type": "module",
+  "description": "Evidence-backed Skill business-flow and strategy reports",
+  "license": "MIT",
+  "bin": {
+    "skill-flow-explainer": "skills/skill-flow-explainer/scripts/cli.mjs"
+  },
+  "files": [
+    "skills/",
+    "capabilities.json",
+    "INSTALL.md",
+    "UPDATE.md",
+    "scripts/notice.mjs"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "version": "node scripts/identity.mjs --write",
+    "prepack": "node scripts/identity.mjs",
+    "postinstall": "node scripts/notice.mjs"
+  },
+  "agentPackage": {
+    "kind": "application-skill"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petercjl/skill-flow-explainer.git"
+  }
 }

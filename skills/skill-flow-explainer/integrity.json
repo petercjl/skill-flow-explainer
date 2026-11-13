@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "files": {
     "adapters/generic.json": "ff200b5fe63d121e39580554d7248ce37fdda43f7fa48a8a7792e3458f1dd18b",
     "agents/openai.yaml": "7c0af9ece752860b117735f25a277075bec3e46f516a3e38a9076792ac4d8426",
     "assets/report.html": "7e7b17c3b83dd8c05e9ea1a0bc15f6f4ed427649c1aebd7313862b6d9db7a72f",
     "capabilities.json": "1de94502faf8a3ab8d925e9ca16f026ae91e6b61438e84ef1b66fa1303227177",
-    "management.json": "a299fcef96bc7a8c2a7ef532fd48f280420d7d3153c0e2af58c170e876648d3c",
-    "manifest.json": "2d36b439c6bc89cc2b2679d442074c14780cf201ea6f3d3cc96527916cb6ea4a",
+    "management.json": "2efe519f756c44e61aa9bed941112a332b4fef207886d0dc85a37766f1c863b5",
+    "manifest.json": "fd32293ce39963328586004b2dc5fa035884fc81e32dd80563c78301c3db88fe",
     "references/index.md": "4d4af3ef82f0d843aaa4185e702b5bfbc1a631124faed98d6e0770bcecb373b6",
     "references/log.md": "83e6b540c8df1433f87a7833f6e93efe5246539fe32b12fea88b0e97e9e4ca7f",
     "references/queries/explain.md": "490a3f16209acdd572bb17fb4d2040bf0e56bf67885f0de0aeaba07c3ca8ae42",
