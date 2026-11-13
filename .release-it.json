@@ -1,0 +1,6 @@
+{
+  "hooks": {
+    "after:bump": ["node scripts/identity.mjs --write", "npm test", "node scripts/identity.mjs"]
+  },
+  "git": {"addUntrackedFiles": false}
+}
